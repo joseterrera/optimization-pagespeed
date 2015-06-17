@@ -1,0 +1,51 @@
+remove unnecessary styles
+
+
+http request
+requests html which requests css and js files
+
+404 no data
+HTTP hyperText Transfer, when a web server is asked for data such as an html file or an image. 
+
+network tab
+disable cash
+it gives you info of what is being loaded 
+
+
+1. Reduce HTTP requests
+look for 404 errors - they generate http requests
+you look for them in the network tab
+sprite maps relate to http request
+
+2. Optimize images
+use svg first
+
+Use SVGs First - SVGs are small in file size because they cover larger areas of the screen using just a few vector points, rather than thousands or millions of individual pixels like in a JPEG or a PNG.
+Resize and Compress Images - Delivering images that are appropriately compressed and sized to their container will reduce file sizes.
+
+
+3. Optimize CSS 
+There are several guidelines and techniques that can help optimize CSS. Removing CSS imports and using hosted font services can help speed up page load times.
+
+4. Create a sprite map
+For when we are using a lot of small images
+
+5. put js libraries at the bottom.
+
+
+
+
+A. Minimize, compress, cache.
+
+1. HTML CSS JavaScript
+
+B. Minimize and use of render blocking resources.
+
+1. use media queries on <link> to unblock rendering
+2. inline css.
+
+C. Minimize use of parser blocking resources.
+
+1. Order JavaScript execution.
+2. Use async attribute on <script>
+
