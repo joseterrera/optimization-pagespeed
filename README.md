@@ -1,10 +1,7 @@
-This is project 4 for Udacity's Front-End NanoDegree. It was for me an introduction to timelines and website optimization. I think it has opened my head as to how to deliver a website now, and the importance of efficiency: one may have a great design, or great content, but it is kind of a downer if the site moves slowly.
 
 On project 4, part 1, I used pagespeed to improve the portfolio's performance.
 To do this I used ngrok which exposes my localhost to the web traffic. I found especially helpful this site to make it work together with pagespeed:
 http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/
-
-Pagespeed is relatively easy to use. Just use any site, and follow their directions to speed up things. There's a lot of documentation about it.
 
 
 I also used grunt that does the job when it comes to minfiying, compiling, and all those things that you normally have to do when building a site. If you are new to this, here is a good link:
